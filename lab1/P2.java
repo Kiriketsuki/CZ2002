@@ -1,4 +1,3 @@
-package lab1;
 import java.util.*;
 
 public class P2 {
