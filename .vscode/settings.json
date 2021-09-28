@@ -1,6 +1,13 @@
 {
     "java.project.sourcePaths": [
+        "lab3",
+        "lab2",
         "lab1",
-        "lab2"
+        "test"
+    ],
+    "cSpell.words": [
+        "cust",
+        "fsmdescription",
+        "fsminterpreter"
     ]
 }

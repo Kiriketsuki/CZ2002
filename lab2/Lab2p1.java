@@ -17,8 +17,8 @@ public class Lab2p1 {
             System.out.println("3:  remainder using division by subtraction"); 
             System.out.println("4:  count  the  number of digits"); 
             System.out.println("5:  position of a digit"); 
-            System.out.println("6:  extract all odd digits"); 
             System.out.println("7:  quit"); 
+            System.out.println("6:  extract all odd digits"); 
             choice = sc.nextInt();
 
             switch(choice) {

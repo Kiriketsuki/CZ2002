@@ -6,9 +6,25 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch fsminterpreter",
+            "request": "launch",
+            "mainClass": "fsminterpreter",
+            "projectName": "CZ2002_c1ffbe96",
+            "args": "myTest.txt abc"
+        },
+        {
+            "type": "java",
+            "name": "Launch plane_app",
+            "request": "launch",
+            "mainClass": "plane_app",
+            "projectName": "CZ2002_c1ffbe96"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${file}",
+            "console": "internalConsole"
         },
         {
             "type": "java",
