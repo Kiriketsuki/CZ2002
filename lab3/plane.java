@@ -104,8 +104,8 @@ public class plane {
             plane_seats[seat_id - 1].assign(cust_id);
             // System.out.format("SeatID %d assigned to CustomerID %d\n", seat_id, cust_id);
             System.out.println("Seat Assigned!");
+            this.num_empty_seats--;
         }
-        this.num_empty_seats--;
     }
 
     public void unassign_seat(int seat_id) {
