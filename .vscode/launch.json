@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Shape3DApp",
+            "request": "launch",
+            "mainClass": "Polyhedrons.Shape3DApp",
+            "projectName": "CZ2002_c1ffbe96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Shape2DApp",
+            "request": "launch",
+            "mainClass": "Shape2DApp",
+            "projectName": "CZ2002_c1ffbe96"
+        },
+        {
+            "type": "java",
+            "name": "Launch WeeklySales",
+            "request": "launch",
+            "mainClass": "WeeklySales",
+            "projectName": "CZ2002_c1ffbe96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Strings",
+            "request": "launch",
+            "mainClass": "Strings",
+            "projectName": "CZ2002_c1ffbe96"
+        },
+        {
+            "type": "java",
+            "name": "Launch Numbers",
+            "request": "launch",
+            "mainClass": "Numbers",
+            "projectName": "CZ2002_c1ffbe96"
+        },
+        {
+            "type": "java",
             "name": "Launch fsminterpreter",
             "request": "launch",
             "mainClass": "fsminterpreter",

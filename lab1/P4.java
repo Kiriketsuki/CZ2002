@@ -21,7 +21,7 @@ public class P4 {
                 curr = 1 - curr; // toggle between A and B
             }
 
-            System.out.println();
+            System.out.println("");
         }
 
         sc.close();
