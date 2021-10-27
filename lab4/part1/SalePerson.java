@@ -48,7 +48,7 @@ public class SalePerson implements Comparable<SalePerson>{
         } else if (this.totalSales > person.getTotalSales()) {
             to_return = 1;
         } else {
-            to_return = this.lastName.compareTo(person.getLastName());
+            to_return = person.getLastName().compareTo(this.lastName);
         }
 
         return to_return;

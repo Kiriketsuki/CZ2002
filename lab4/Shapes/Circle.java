@@ -4,12 +4,18 @@ import java.lang.Math;
 public class Circle implements Shape {
     public static int sides = 1;
     private double[] sideLengths;
+    private double radius;
 
     public Circle(double radius) {
+        this.radius = radius;
         double[] sideLengths = new double[Circle.sides];
         sideLengths[0] = 2 * radius * Math.PI;
 
         this.sideLengths = sideLengths;
+    }
+
+    public double getRadius() {
+        return this.radius;
     }
 
     @Override
@@ -19,8 +25,7 @@ public class Circle implements Shape {
 
     @Override
     public double getArea() {
-        double radius = (this.sideLengths[0]/Math.PI)/2;
-        return Math.pow(radius, 2) * Math.PI;
+        return Math.pow(this.radius, 2) * Math.PI;
     }
     
 }

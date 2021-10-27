@@ -8,7 +8,7 @@ public class Square implements Shape {
     public Square(int length) {
         double[] sideLengths = new double[Square.sides];
         for (int i = 0; i < sideLengths.length; i++) {
-            sideLengths[i] = sides;
+            sideLengths[i] = length;
         }
         
         this.sideLengths = sideLengths;
