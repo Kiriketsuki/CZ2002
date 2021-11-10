@@ -11,5 +11,8 @@
         "cust",
         "fsmdescription",
         "fsminterpreter"
-    ]
+    ],
+    "files.associations": {
+        "ostream": "cpp"
+    }
 }
