@@ -1,10 +1,11 @@
 {
     "java.project.sourcePaths": [
         "test",
+        "lab4",
         "lab3",
         "lab2",
         "lab1",
-        "lab4"
+        ""
     ],
     "cSpell.words": [
         "cust",

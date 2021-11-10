@@ -1,6 +1,5 @@
 package Polyhedrons;
 
-import java.util.ArrayList;
 
 import Shapes.Circle;
 import Shapes.Rectangle;

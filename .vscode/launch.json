@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch human",
+            "request": "launch",
+            "mainClass": "human",
+            "projectName": "CZ2002_c1ffbe96"
+        },
+        {
+            "type": "java",
             "name": "Launch Shape2DApp",
             "request": "launch",
             "mainClass": "Shapes.Shape2DApp",
